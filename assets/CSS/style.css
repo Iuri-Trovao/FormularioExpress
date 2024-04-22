@@ -1,0 +1,64 @@
+.main {
+  height: 180vh;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(210, 208, 208);
+}
+.main h1 {
+  color: rgb(21, 108, 247);
+  text-decoration: 2px underline rgb(21, 108, 247);
+}
+.main .Form {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.main .Form label {
+  font-size: 20px;
+}
+.main .Form label:hover {
+  text-decoration: 2px underline aqua;
+  transition: 3s;
+}
+.main .Form input {
+  height: 50px;
+  width: 300px;
+  background: rgb(30, 30, 30);
+  border: 0;
+  border-bottom: 2px solid rgb(21, 108, 247);
+  color: aliceblue;
+  font-size: 20px;
+  outline: none;
+}
+.main .Form input:hover {
+  border-bottom: 2px solid aqua;
+  transition: 3s;
+}
+.main .Form button {
+  height: 40px;
+  width: 300px;
+  background-color: rgb(21, 108, 247);
+  color: aliceblue;
+  border: 0;
+}
+.main .Form button:hover {
+  box-shadow: 1px 1px 10px aqua;
+  background: aqua;
+  transform: translateY(-10px);
+  transition: 3s;
+}
+
+/*# sourceMappingURL=style.css.map */
